@@ -55,7 +55,6 @@ class ProfileScreen extends StatelessWidget {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      // Profile Image
                       Container(
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
@@ -88,9 +87,8 @@ class ProfileScreen extends StatelessWidget {
 
                       const SizedBox(height: 16),
 
-                      // Name
                       const Text(
-                        'John Doe',
+                        'solomon',
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
@@ -100,7 +98,6 @@ class ProfileScreen extends StatelessWidget {
 
                       const SizedBox(height: 4),
 
-                      // Title/Role
                       const Text(
                         'Flutter Developer',
                         style: TextStyle(
@@ -120,15 +117,16 @@ class ProfileScreen extends StatelessWidget {
 
                       const SizedBox(height: 16),
 
-                      _buildContactRow(Icons.email, 'john.doe@example.com'),
+                      _buildContactRow(Icons.email, 'crsola94@gmail.com'),
 
                       const SizedBox(height: 12),
 
-                      _buildContactRow(Icons.phone, '+1 (555) 123-4567'),
+                      _buildContactRow(Icons.phone, '+251 929280876'),
 
                       const SizedBox(height: 12),
 
-                      _buildContactRow(Icons.location_on, 'New York, USA'),
+                      _buildContactRow(
+                          Icons.location_on, 'Addis Ababa, Ethiopia'),
 
                       const SizedBox(height: 20),
 
